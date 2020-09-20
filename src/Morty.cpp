@@ -17,10 +17,15 @@ void C137::Morty(int start, int stop) {
     for (int i = start; i <= stop; i++) {
         if ((i % 15) == 0) {
             std::cout << i << ": Aww Geez Man" << std::endl;
-        } else if ((i % 5) == 0) {
+        } 
+        else if ((i % 5) == 0) {
             std::cout << i << ": Geez" << std::endl;
-        } else if ((i % 3) == 0) {
+        } 
+        else if ((i % 3) == 0) {
             std::cout << i << ": Aww" << std::endl;
+        } 
+        else {
+            std::cout << i << ":" << std::endl;
         }
     }
 }
@@ -34,6 +39,9 @@ void C137::Morty(int start, int stop, int step) {
         }
         else if ((i % 3) == 0) {
             std::cout << i << ": Aww" << std::endl;
+        }
+        else {
+            std::cout << i << ":" << std::endl;
         }
     }
 }
@@ -53,6 +61,9 @@ void Z286::Morty(int start, int stop) {
         else if ((i % 3) == 0) {
             std::cout << i << ": wwA" << std::endl;
         }
+        else {
+            std::cout << i << ":" << std::endl;
+        }
     }
 }
 void Z286::Morty(int start, int stop, int step) {
@@ -65,6 +76,9 @@ void Z286::Morty(int start, int stop, int step) {
         }
         else if ((i % 3) == 0) {
             std::cout << i << ": wwA" << std::endl;
+        }
+        else {
+            std::cout << i << ":" << std::endl;
         }
     }
 }
