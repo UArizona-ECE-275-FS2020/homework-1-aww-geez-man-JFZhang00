@@ -84,10 +84,10 @@ int main(int ac, char** av) {
 	}
 	else if (ac == 5) {
 		if (dim == "C137") {
-			C137::Morty(start, stop);
+			C137::Morty(start, stop, step);
 		}
 		else if (dim == "Z286") {
-			Z286::Morty(start, stop);
+			Z286::Morty(start, stop, step);
 		}
 	}
 
