@@ -81,6 +81,9 @@ int main(int ac, char** av) {
 		else if (dim == "Z286") {
 			Z286::Morty(start, stop);
 		}
+		else {
+			std::cout << "ERROR: Unknown dimension!!" << std::endl;
+		}
 	}
 	else if (ac == 5) {
 		if (dim == "C137") {
@@ -88,6 +91,9 @@ int main(int ac, char** av) {
 		}
 		else if (dim == "Z286") {
 			Z286::Morty(start, stop, step);
+		}
+		else {
+			std::cout << "ERROR: Unknown dimension!!" << std::endl;
 		}
 	}
 
