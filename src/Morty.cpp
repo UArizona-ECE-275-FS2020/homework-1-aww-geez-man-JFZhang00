@@ -26,7 +26,7 @@ void C137::Morty(int start, int stop) {
             std::cout << i << ": Aww" << std::endl;
         } 
         else {
-            std::cout << i << ":" << std::endl;
+            std::cout << i << ": " << std::endl;
         }
     }
 }
@@ -43,7 +43,7 @@ void C137::Morty(int start, int stop, int step) {
             std::cout << i << ": Aww" << std::endl;
         }
         else {
-            std::cout << i << ":" << std::endl;
+            std::cout << i << ": " << std::endl;
         }
     }
 }
@@ -65,7 +65,7 @@ void Z286::Morty(int start, int stop) {
             std::cout << i << ": wwA" << std::endl;
         }
         else {
-            std::cout << i << ":" << std::endl;
+            std::cout << i << ": " << std::endl;
         }
     }
 }
@@ -82,7 +82,7 @@ void Z286::Morty(int start, int stop, int step) {
             std::cout << i << ": wwA" << std::endl;
         }
         else {
-            std::cout << i << ":" << std::endl;
+            std::cout << i << ": " << std::endl;
         }
     }
 }
